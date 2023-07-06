@@ -23,7 +23,13 @@ export default function Dashboard() {
   return (
     <>
       <div className="flex h-[100vh] bg-[#F5F5F5]">
-        <SideBar />
+        <div className="flex-col bg-black text-white rounded-2xl h-[96vh] w-[16rem] m-4 justify-between p-10 md:flex hidden">
+
+          <div className="text-sm flex flex-col gap-4 cursor-pointer">
+            <div className="">Help</div>
+            <div className="">Contact Us</div>
+          </div>
+        </div>
         <div className="flex-1 p-8 overflow-y-scroll">
           <div className="flex justify-between md:flex-row flex-col">
             <div className="font-bold font-Montserrat text-2xl md:mb-0 mb-2 flex gap-2 items-center">
