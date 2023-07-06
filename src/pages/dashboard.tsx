@@ -11,12 +11,12 @@ import SideBar from "../../components/SideBar";
 export default function Dashboard() {
   const { data: session } = useSession();
   const router = useRouter();
-  // useEffect(() => {
-  //   if (!session) {
-  //     router.push("/");
-  //   }
-  //   console.log(session);
-  // }, [session, router]);
+  useEffect(() => {
+    if (!session) {
+      router.push("/");
+    }
+    console.log(session);
+  }, [session, router]);
 
   const [bar, setBar] = useState(false);
 
