@@ -4,7 +4,6 @@ import Image from "next/image";
 const SideBar = () => {
   return (
     <>
-      {" "}
       <div className="flex-col bg-black text-white rounded-2xl h-[96vh] w-[16rem] m-4 justify-between p-10 md:flex hidden">
         <div className="flex flex-col gap-8">
           <div className="text-4xl font-bold font-Montserrat">Board.</div>
