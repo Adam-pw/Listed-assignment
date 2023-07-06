@@ -11,12 +11,12 @@ import SideBar from "../../components/SideBar";
 export default function Dashboard() {
   const { data: session } = useSession();
   const router = useRouter();
-  useEffect(() => {
-    if (!session) {
-      router.push("/");
-    }
-    console.log(session);
-  }, [session, router]);
+  // useEffect(() => {
+  //   if (!session) {
+  //     router.push("/");
+  //   }
+  //   console.log(session);
+  // }, [session, router]);
 
   const [bar, setBar] = useState(false);
 
@@ -165,7 +165,7 @@ export default function Dashboard() {
                   ></Image>
                 </div>
               </div>
-              <div className="flex md:flex-row flex-col justify-center gap-24 mt-4">
+              <div className="flex md:flex-row flex-col justify-center gap-24 mt-4 h-44">
                 <Piechart />
               </div>
             </div>
