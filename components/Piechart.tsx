@@ -27,6 +27,7 @@ const Piechart = () => {
   const [numbers, setNumbers] = useState<any>();
   useEffect(() => {
     setNumbers(generateRandomNumbers());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function getRandomNumber(min: number, max: number) {

@@ -1,11 +1,8 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const { data: session } = useSession();
@@ -57,14 +54,14 @@ export default function Home() {
             <div className="flex flex-col">
               <label className="">Email address</label>
               <input
-                className="px-4 py-2 bg-[#F5F5F5] rounded-lg focus:outline-none mt-1"
+                className="px-4 py-2 bg-[#F5F5F5] focus:outline-gray-400 rounded-lg focus:outline-none mt-1"
                 placeholder="****@gmail.com"
               ></input>
             </div>
             <div className="flex flex-col">
               <label className="">Password</label>
               <input
-                className="px-4 py-2 bg-[#F5F5F5] rounded-lg focus:outline-none mt-1"
+                className="px-4 py-2 bg-[#F5F5F5] rounded-lg focus:outline-gray-400 focus:outline-none mt-1"
                 placeholder="password"
                 type="password"
               ></input>

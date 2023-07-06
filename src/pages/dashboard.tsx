@@ -40,7 +40,7 @@ export default function Dashboard() {
             <div className="flex itmes-center gap-4">
               <input
                 placeholder="Search..."
-                className="bg-white px-4 py-2 focus:outline-none rounded-lg"
+                className="bg-white px-4 py-2 focus:outline-none focus:outline-gray-400  rounded-lg"
               ></input>
               <Image
                 src="/search.svg"
