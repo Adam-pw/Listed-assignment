@@ -24,7 +24,7 @@ export default function Dashboard() {
     <>
       <div className="flex h-[100vh] bg-[#F5F5F5]">
         <div className="flex-col bg-black text-white rounded-2xl h-[96vh] w-[16rem] m-4 justify-between p-10 md:flex hidden">
-
+          <SideBar />
           <div className="text-sm flex flex-col gap-4 cursor-pointer">
             <div className="">Help</div>
             <div className="">Contact Us</div>
