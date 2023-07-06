@@ -69,16 +69,14 @@ export default function Home() {
             <div className="text-[#346BD4] hover:underline">
               Forgot password?
             </div>
-            <Link href="/dashboard">
-              <button
-                className="bg-black w-full text-white py-2 rounded-lg font-Montserrat font-bold"
-                onClick={() => {
-                  signIn();
-                }}
-              >
-                Sign In
-              </button>
-            </Link>
+            <button
+              className="bg-black w-full text-white py-2 rounded-lg font-Montserrat font-bold"
+              onClick={() => {
+                signIn();
+              }}
+            >
+              Sign In
+            </button>
           </form>
           <div className="text-center text-[#858585] mt-4">
             {"Don’t have an account?"}{" "}
