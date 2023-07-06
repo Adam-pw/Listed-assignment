@@ -57,21 +57,21 @@ const Piechart = () => {
         <div className="flex flex-col justify-between">
           <div className="">
             <div className="flex gap-2 items-center">
-              <div className="w-3 h-3 bg-[#98D89E] rounded-full"></div>
+              <div className="w-3 h-3 bg-[#98D89E] rounded-full">{" "}</div>
               <div className="font-semibold">Basic Tees</div>
             </div>
             <div className="text-[#858585]">{numbers[0]}%</div>
           </div>
           <div className="">
             <div className="flex gap-2 items-center">
-              <div className="w-3 h-3 bg-[#E9A0A0] rounded-full"></div>
+              <div className="w-3 h-3 bg-[#E9A0A0] rounded-full">{" "}</div>
               <div className="font-semibold">Custom Short Pants</div>
             </div>
             <div className="text-[#858585]">{numbers[1]}%</div>
           </div>
           <div className="">
             <div className="flex gap-2 items-center">
-              <div className="w-3 h-3 bg-[#F6DC7D] rounded-full"></div>
+              <div className="w-3 h-3 bg-[#F6DC7D] rounded-full">{" "}</div>
               <div className="font-semibold">Super Hoodies</div>
             </div>
             <div className="text-[#858585]">{numbers[2]}%</div>
