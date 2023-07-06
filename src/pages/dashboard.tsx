@@ -165,7 +165,7 @@ export default function Dashboard() {
                   ></Image>
                 </div>
               </div>
-              <div className="flex md:flex-row flex-col justify-center gap-24 mt-4 h-44">
+              <div className="flex md:flex-row flex-col justify-center gap-24 mt-4 md:h-44">
                 <Piechart />
               </div>
             </div>
